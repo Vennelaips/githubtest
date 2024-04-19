@@ -102,3 +102,69 @@
     </footer>
 </body>
 </html>
+
+CSS FILE:
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 28px;
+}
+
+section {
+    padding: 29px;
+}
+
+#about img {
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+.project {
+    display: block; 
+    margin: 0 auto;  
+    margin-bottom: 20px;
+}
+
+.project img {
+    display: block; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+button {
+    background-color: #050607; 
+    color: #fff; 
+    padding: 30px 40px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
